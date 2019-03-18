@@ -8,8 +8,8 @@ public class MyClass {
             if(Character.isLetter(s.charAt(i))) count1++;
             if(Character.isDigit(s.charAt(i)))  count2++;
         }
-        if(count1!=0 && count2!=0) System.out.println("yes");
-            else System.out.println("no");
+        if(count1!=0 && count2!=0) System.out.println("Yes");
+            else System.out.println("No");
         
     }
 }
